@@ -1,0 +1,10 @@
+flask
+-e git+https://github.com/flask-restful/flask-restful.git@48ca816c9d116fd975182691c7b0d1bbb6c3e332#egg=Flask_RESTful
+flask-restplus==0.13.0
+flask-sqlalchemy
+flask-migrate
+flask-cors
+marshmallow-sqlalchemy
+psycopg2
+Werkzeug==0.16.0
+gunicorn
